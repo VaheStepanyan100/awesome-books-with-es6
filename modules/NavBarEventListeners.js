@@ -1,4 +1,4 @@
-export default function NavBarEventListeners() {
+const NavBarEventListeners = () => {
   const listButton = document.querySelector('.list');
   const addNewButton = document.querySelector('.add-new');
   const contactButton = document.querySelector('.contact');
@@ -20,4 +20,6 @@ export default function NavBarEventListeners() {
     awesomeBooksSection.classList.remove('show');
     addNewSection.classList.add('hide');
   });
-}
+};
+
+export default NavBarEventListeners;
